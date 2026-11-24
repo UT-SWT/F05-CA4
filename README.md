@@ -43,7 +43,7 @@ The project uses the following tools and technologies:
 
 Run the following commands from the project root directory.
 
-### 5.1. Execute JUnit Tests
+### 4.1. Execute JUnit Tests
 
 ```powershell
 mvn clean test
@@ -51,7 +51,7 @@ mvn clean test
 
 This command compiles the project and executes the available JUnit tests.
 
-### 5.2. Generate the JaCoCo Report
+### 4.2. Generate the JaCoCo Report
 
 ```powershell
 mvn clean test jacoco:report
@@ -63,7 +63,7 @@ After the command completes, open the generated HTML report:
 target/site/jacoco/index.html
 ```
 
-### 5.3. Run Mutation Testing
+### 4.3. Run Mutation Testing
 
 ```powershell
 mvn test org.pitest:pitest-maven:mutationCoverage
